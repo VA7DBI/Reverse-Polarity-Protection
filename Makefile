@@ -16,7 +16,7 @@ build/boards/%: $$*/$$*.kicad_pcb $$*/$$*.kicad_sch
 	xz $@_model.step
 	touch $@
 
-build/web/index.html: README.md present/template/index.html $(addprefix build/boards/,$(BOARDS))
+build/web/index.html: README.md present/template/index.html $(addprefix build/boards/$(BOARDS))
 	mkdir -p build/web
 	kikit present boardpage \
 		-d $< \
