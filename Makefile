@@ -1,6 +1,6 @@
 .PHONY: web
 
-BOARDS = Rreverse-Polarity-Protection
+BOARDS = Reverse-Polarity-Protection
 
 web: build/web/index.html
 
