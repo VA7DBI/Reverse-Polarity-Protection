@@ -1,3 +1,6 @@
+name: images
+on:
+  push:
 stages:
   - fetch-version
   - testing
