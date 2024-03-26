@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Reverse Polarity Protection.kicad_prl",
+    "filename": "ReversePolarityProtection.kicad_prl",
     "version": 3
   },
   "project": {

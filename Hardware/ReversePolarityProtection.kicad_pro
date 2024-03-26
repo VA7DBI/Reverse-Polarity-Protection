@@ -361,7 +361,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Reverse Polarity Protection.kicad_pro",
+    "filename": "ReversePolarityProtection.kicad_pro",
     "version": 1
   },
   "net_settings": {
