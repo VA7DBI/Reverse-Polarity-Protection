@@ -1573,6 +1573,12 @@
 		(uuid "73d4bede-169c-4dd4-8749-d89e03d3611d")
 	)
 	(junction
+		(at 63.5 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77c89ba9-188f-4cbc-9927-426a1e412a1d")
+	)
+	(junction
 		(at 53.34 69.85)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -1601,12 +1607,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "c4980e27-2cf3-4fe9-b741-61cc4d98b1fc")
-	)
-	(junction
-		(at 63.5 35.56)
-		(diameter 0.9144)
-		(color 0 0 0 0)
-		(uuid "c9eba151-9afd-4fcd-aa2a-95237e5c0050")
 	)
 	(junction
 		(at 143.51 35.56)
@@ -1679,6 +1679,16 @@
 			(type solid)
 		)
 		(uuid "06a74ae1-21fc-434e-ae15-0aad633803cd")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0919db1b-7ddf-4511-a411-b0abe9fa7ce8")
 	)
 	(wire
 		(pts
@@ -1762,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 69.85) (xy 63.5 43.18)
+			(xy 63.5 69.85) (xy 63.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1922,16 +1932,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "afad2aae-3557-458a-a252-79dab27c838b")
-	)
-	(wire
-		(pts
 			(xy 107.95 35.56) (xy 119.38 35.56)
 		)
 		(stroke
@@ -2022,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 35.56) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d68f74c9-64a3-4325-9d6f-d4203b5738b3")
+	)
+	(wire
+		(pts
 			(xy 119.38 59.69) (xy 119.38 69.85)
 		)
 		(stroke
@@ -2049,6 +2059,16 @@
 			(type solid)
 		)
 		(uuid "dd7fc00a-ecf3-4237-aac4-f50a0457c459")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff82458-22c2-4083-9e40-5977cf503e37")
 	)
 	(label "Vext"
 		(at 96.52 27.94 270)
@@ -2088,7 +2108,7 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.87 0.87)
 			)
 			(justify right bottom)
 		)
@@ -2175,7 +2195,7 @@
 			(uuid "1ba1f968-ccbe-4de3-8133-311d62354ad1")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "CON3")
 					(unit 1)
@@ -2255,7 +2275,7 @@
 			(uuid "63cfb907-4131-4b48-936f-11e2e5fb9f91")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "C1")
 					(unit 1)
@@ -2321,7 +2341,7 @@
 			(uuid "2a4d552b-47f2-4a83-a294-048c2e428054")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "CON2")
 					(unit 1)
@@ -2387,7 +2407,7 @@
 			(uuid "a57d94f8-59cb-4f60-8df7-ba22db69752c")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "CON1")
 					(unit 1)
@@ -2454,7 +2474,7 @@
 			(uuid "cd461b51-7dc3-4d99-b9f6-02386ca48734")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "CON4")
 					(unit 1)
@@ -2524,7 +2544,7 @@
 			(uuid "a7379f34-4457-48a8-95bf-56affa7ce95f")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "C2")
 					(unit 1)
@@ -2540,7 +2560,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f564032-7d31-4f25-9f5f-cbb61a1e31f3")
 		(property "Reference" "U1"
 			(at 77.47 44.45 0)
@@ -2551,7 +2570,7 @@
 			)
 		)
 		(property "Value" "LM5050-1"
-			(at 77.47 46.99 0)
+			(at 88.138 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2623,7 @@
 			(uuid "520cd59b-4a9f-49da-974c-b78d262e2eb7")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "U1")
 					(unit 1)
@@ -2622,7 +2641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a39a98e-662f-484d-b8ac-825069bfa395")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 146.05 52.0699 90)
 			(effects
 				(font
@@ -2674,9 +2693,9 @@
 			(uuid "63b72b12-9e21-4dc4-8513-aff0d307bc02")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2744,7 +2763,7 @@
 			(uuid "f936c3b9-a73d-4afa-8d61-908f38f756cd")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "R1")
 					(unit 1)
@@ -2810,7 +2829,7 @@
 			(uuid "62cc4029-6ebe-4c86-90ff-2fd94f9f61fa")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "#PWR0101")
 					(unit 1)
@@ -2880,7 +2899,7 @@
 			(uuid "daf4a766-6793-41d6-bbfc-25955cce0471")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "R2")
 					(unit 1)
@@ -2954,9 +2973,80 @@
 			(uuid "38c1da37-2c6b-4648-9d6f-0aede58c019c")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 63.5 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bab0bb72-f1c9-4b3d-8272-4ccbb5e013c4")
+		(property "Reference" "D2"
+			(at 66.04 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS16T3G"
+			(at 60.96 55.8801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f4327d-37c0-44da-aaf0-6f293477a537")
+		)
+		(pin "2"
+			(uuid "205f8951-3d8a-4487-a526-26546b038d9b")
+		)
+		(instances
+			(project "ReversePolarityProtection"
+				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3020,7 +3110,7 @@
 			(uuid "81768ede-2dc6-4a9f-bde2-bd7a6c53789f")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "#PWR0102")
 					(unit 1)
@@ -3092,7 +3182,7 @@
 			(uuid "67ce6336-761c-4bfc-84d7-2e540b69fbe2")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "Q1")
 					(unit 1)
@@ -3162,7 +3252,7 @@
 			(uuid "3d6fbfcf-83dc-460b-8d30-9d41852b6a79")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "C3")
 					(unit 1)
@@ -3172,7 +3262,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 63.5 39.37 270)
+		(at 63.5 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3181,7 +3271,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3d2eae7-94ae-4b31-99a6-7fca2bb4146a")
 		(property "Reference" "D1"
-			(at 66.04 38.0999 90)
+			(at 66.04 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3280,7 @@
 			)
 		)
 		(property "Value" "SS16T3G"
-			(at 66.04 40.6399 90)
+			(at 66.04 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +3290,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
-			(at 63.5 39.37 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 39.37 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 39.37 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3323,7 @@
 			(uuid "b9a07bb3-6e56-47cc-ac4b-8420674c93af")
 		)
 		(instances
-			(project "Reverse Polarity Protection"
+			(project "ReversePolarityProtection"
 				(path "/8ebbf97a-67d0-41db-be0c-70330c9ca5ce"
 					(reference "D1")
 					(unit 1)
